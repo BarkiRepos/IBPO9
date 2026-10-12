@@ -309,7 +309,7 @@
                         var
                             myInt: Integer;
                         begin
-                            UOMProducedQuantity := format(ProdBOMHeader."Unit of Measure Code");
+                            UOMProducedQuantity := format(item."Base Unit of Measure");
                             IBPO9Buffer."Field 12" := UOMProducedQuantity;
                             IBPO9Buffer.Modify();
                         end;
