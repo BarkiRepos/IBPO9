@@ -115,6 +115,10 @@ codeunit 67004 "UTT O9 Project Lib"
             CreateInStream('SALES');
             SaveOutStream(TempBlob, LegalEntity + '_' + ActualSalesLbl + '_' + Format(today, 0, '<year4><month,2><day,2>'));
         end;
+        if StrPos(Rec."Parameter String", 'PO_INVOICE') > 0 then begin
+            CreateInStream('PO_INVOICE');
+            SaveOutStream(TempBlob, LegalEntity + '_PurchaseOrderInvoice_' + Format(Today, 0, '<year4><month,2><day,2>'));
+        end;
         if StrPos(Rec."Parameter String", 'PURCHASE') > 0 then begin
             // PurchaseExport(OutS);
             CreateInStream('PURCHASE');
@@ -255,6 +259,11 @@ codeunit 67004 "UTT O9 Project Lib"
                         PurchaseExport(OutS);
                         SaveOutStream(TempBlob, LegalEntity + '_' + SnapshotConfig.Description + '_' + Format(today, 0, '<year4><month,2><day,2>'));
 
+                    end;
+                'UTT O9 Purchase Invoice':
+                    begin
+                        PurchaseInvoiceExport(OutS);
+                        SaveOutStream(TempBlob, LegalEntity + '_' + SnapshotConfig.Description + '_' + Format(Today, 0, '<year4><month,2><day,2>'));
                     end;
                 'UTT O9 Purchase Export_SP':
                     begin
@@ -442,6 +451,28 @@ codeunit 67004 "UTT O9 Project Lib"
         O9POXMLExport.Export();
 
 
+    end;
+
+    procedure PurchaseInvoiceExport(var OutS: OutStream)
+    var
+        InvoiceExport: XmlPort "UTT O9 Purchase Invoice";
+        StartDate: Date;
+        EndDate: Date;
+        StartDateFormel: DateFormula;
+    begin
+        StartDateFormel := Dateformel;
+        if RefStartDate = RefEndDate then begin
+            Evaluate(StartDateFormel, '<3y>');
+            StartDate := CalcDate(StrSubstNo('-%1', StartDateFormel), RefStartDate);
+            EndDate := CalcDate(StrSubstNo('+%1', StartDateFormel), RefStartDate);
+        end else begin
+            StartDate := RefStartDate;
+            EndDate := RefEndDate;
+        end;
+
+        InvoiceExport.SetDataFilter(StartDate, EndDate);
+        InvoiceExport.SetDestination(OutS);
+        InvoiceExport.Export();
     end;
 
     procedure PurchaseExport_SP(var Outs: OutStream)
@@ -773,6 +804,11 @@ codeunit 67004 "UTT O9 Project Lib"
                 begin
                     SetStartEndDate(StartDate, EndDate, DateFormel);
                     PurchaseExport(OutS);
+                end;
+            'PO_INVOICE':
+                begin
+                    SetStartEndDate(StartDate, EndDate, DateFormel);
+                    PurchaseInvoiceExport(OutS);
                 end;
             'PURCHASE_SP':
                 begin

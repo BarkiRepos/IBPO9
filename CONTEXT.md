@@ -29,7 +29,9 @@ Exports can write persistent rows to `UTT IBPO9 Buffer` as well as an output str
 
 ## Current focus
 
-The active file when these notes were created was `src/xmlport/UTTO9POKPI_SP_XmlPort.al`. Its detailed context is in [the purchase export notes](src/xmlport/CONTEXT.md).
+The current invoice export is `src/xmlport/UTTPO_InvoiceSPCude.XmlPort.al`, XMLport 67033, `UTT O9 Purchase Invoice`. It exports 49 template columns and is integrated into the export report, job queue (`PO_INVOICE`), snapshots, permissions, and buffer fields 1-49.
+
+See [invoice mapping notes](src/xmlport/PURCHASE_INVOICE_MAPPING.md) and `Purchase order invoice data template - mapped.xlsx` for the current source fields and joins. Cost Account uses the General Ledger Setup Global Dimension 1 Code; Profit Center uses Global Dimension 2 Code. Values are read from the posted invoice line Dimension Set ID. Plant and Plant Name use company country DE = IVMK and MX = IVMP. Eight fields remain unmapped.
 
 ## Development and validation
 

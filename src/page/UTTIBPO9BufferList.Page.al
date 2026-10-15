@@ -158,6 +158,106 @@ page 67041 "UTT IBPO9 Buffer List"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Field 29 field.', Comment = '%';
                 }
+                field("Field 30"; Rec."Field 30")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 30 field.', Comment = '%';
+                }
+                field("Field 31"; Rec."Field 31")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 31 field.', Comment = '%';
+                }
+                field("Field 32"; Rec."Field 32")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 32 field.', Comment = '%';
+                }
+                field("Field 33"; Rec."Field 33")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 33 field.', Comment = '%';
+                }
+                field("Field 34"; Rec."Field 34")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 34 field.', Comment = '%';
+                }
+                field("Field 35"; Rec."Field 35")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 35 field.', Comment = '%';
+                }
+                field("Field 36"; Rec."Field 36")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 36 field.', Comment = '%';
+                }
+                field("Field 37"; Rec."Field 37")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 37 field.', Comment = '%';
+                }
+                field("Field 38"; Rec."Field 38")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 38 field.', Comment = '%';
+                }
+                field("Field 39"; Rec."Field 39")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 39 field.', Comment = '%';
+                }
+                field("Field 40"; Rec."Field 40")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 40 field.', Comment = '%';
+                }
+                field("Field 41"; Rec."Field 41")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 41 field.', Comment = '%';
+                }
+                field("Field 42"; Rec."Field 42")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 42 field.', Comment = '%';
+                }
+                field("Field 43"; Rec."Field 43")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 43 field.', Comment = '%';
+                }
+                field("Field 44"; Rec."Field 44")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 44 field.', Comment = '%';
+                }
+                field("Field 45"; Rec."Field 45")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 45 field.', Comment = '%';
+                }
+                field("Field 46"; Rec."Field 46")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 46 field.', Comment = '%';
+                }
+                field("Field 47"; Rec."Field 47")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 47 field.', Comment = '%';
+                }
+                field("Field 48"; Rec."Field 48")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 48 field.', Comment = '%';
+                }
+                field("Field 49"; Rec."Field 49")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Field 49 field.', Comment = '%';
+                }
                 field("Export Batch ID"; Rec."Export Batch ID")
                 {
                     ApplicationArea = All;
