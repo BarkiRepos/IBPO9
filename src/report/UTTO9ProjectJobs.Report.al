@@ -29,6 +29,14 @@ report 67035 "UTT O9 Project Jobs"
               
                 DataCompression.CreateZipArchive();
 
+                if PurchaseInvoice then begin
+                    Clear(TempBlob);
+                    TempBlob.CreateOutStream(OutS);
+                    O9ProjectLib.SetStartEndDate(StartDate, EndDate, DateFormel);
+                    O9ProjectLib.PurchaseInvoiceExport(OutS);
+                    TempBlob.CreateInStream(InS);
+                    DataCompression.AddEntry(InS, LegalEntity + '_PurchaseOrderInvoice_' + Format(Today, 0, '<year4><month,2><day,2>') + '.csv');
+                end;
                 if MaterialExport then begin
                     clear(TempBlob);
                     if GuiAllowed then begin
@@ -588,6 +596,12 @@ report 67035 "UTT O9 Project Jobs"
 
 
 
+                    field(PurchaseInvoice; PurchaseInvoice)
+                    {
+                        ApplicationArea = All;
+                        Caption = 'Purchase Order Invoice Data';
+                        ToolTip = 'Export posted purchase invoice lines for the selected posting date range.';
+                    }
                     field(PurchaseExport; PurchaseExport)
                     {
                         ApplicationArea = All;
@@ -773,6 +787,7 @@ report 67035 "UTT O9 Project Jobs"
         UOMExport: Boolean;
         UOMConversion: Boolean;
         SalesExport: Boolean;
+        PurchaseInvoice: Boolean;
         PurchaseExport: Boolean;
          PurchaseExport_SP: Boolean;
         InventoryExport: Boolean;

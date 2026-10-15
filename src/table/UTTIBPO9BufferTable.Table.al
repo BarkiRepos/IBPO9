@@ -153,6 +153,58 @@ table 67026 "UTT IBPO9 Buffer"
         {
             DataClassification = ToBeClassified;
         }
+        field(137; "Field 37"; Text[100])
+        {
+            DataClassification = CustomerContent;
+        }
+        field(138; "Field 38"; Text[100])
+        {
+            DataClassification = CustomerContent;
+        }
+        field(139; "Field 39"; Text[100])
+        {
+            DataClassification = CustomerContent;
+        }
+        field(140; "Field 40"; Text[100])
+        {
+            DataClassification = CustomerContent;
+        }
+        field(141; "Field 41"; Text[100])
+        {
+            DataClassification = CustomerContent;
+        }
+        field(142; "Field 42"; Text[100])
+        {
+            DataClassification = CustomerContent;
+        }
+        field(143; "Field 43"; Text[100])
+        {
+            DataClassification = CustomerContent;
+        }
+        field(144; "Field 44"; Text[100])
+        {
+            DataClassification = CustomerContent;
+        }
+        field(145; "Field 45"; Text[100])
+        {
+            DataClassification = CustomerContent;
+        }
+        field(146; "Field 46"; Text[100])
+        {
+            DataClassification = CustomerContent;
+        }
+        field(147; "Field 47"; Text[100])
+        {
+            DataClassification = CustomerContent;
+        }
+        field(148; "Field 48"; Text[100])
+        {
+            DataClassification = CustomerContent;
+        }
+        field(149; "Field 49"; Text[100])
+        {
+            DataClassification = CustomerContent;
+        }
         field(31; "Export Date"; DateTime)
         {
             Caption = 'Export Date';

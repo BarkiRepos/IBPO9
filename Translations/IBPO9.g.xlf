@@ -168,10 +168,75 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table UTT IBPO9 Buffer - Field Field 36 - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2207729660 - Field 531350322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field 37</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UTT IBPO9 Buffer - Field Field 37 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2207729660 - Field 362441299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field 38</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UTT IBPO9 Buffer - Field Field 38 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2207729660 - Field 1000137916 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field 39</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UTT IBPO9 Buffer - Field Field 39 - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2207729660 - Field 2539063970 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Field 4</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table UTT IBPO9 Buffer - Field Field 4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2207729660 - Field 1961059402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field 40</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UTT IBPO9 Buffer - Field Field 40 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2207729660 - Field 1323362785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field 41</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UTT IBPO9 Buffer - Field Field 41 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2207729660 - Field 685666168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field 42</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UTT IBPO9 Buffer - Field Field 42 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2207729660 - Field 47969551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field 43</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UTT IBPO9 Buffer - Field Field 43 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2207729660 - Field 216878574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field 44</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UTT IBPO9 Buffer - Field Field 44 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2207729660 - Field 3874149253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field 45</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UTT IBPO9 Buffer - Field Field 45 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2207729660 - Field 3236452636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field 46</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UTT IBPO9 Buffer - Field Field 46 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2207729660 - Field 2598756019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field 47</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UTT IBPO9 Buffer - Field Field 47 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2207729660 - Field 2767665042 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field 48</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UTT IBPO9 Buffer - Field Field 48 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2207729660 - Field 2129968425 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field 49</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UTT IBPO9 Buffer - Field Field 49 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2207729660 - Field 1901367353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Field 5</source>
@@ -983,10 +1048,110 @@
           <note from="Developer" annotates="general" priority="2">%</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 3 - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 276133518 - Control 1169046939 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 30 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 30 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 1806743556 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 31 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 31 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 2444440173 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 32 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 32 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 3082136790 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 33 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 33 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 2913227767 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 34 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 34 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 3550924384 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 35 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 35 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 4188621001 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 36 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 36 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 531350322 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 37 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 37 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 362441299 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 38 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 38 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 1000137916 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 39 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 39 - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 276133518 - Control 2539063970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Field 4 field.</source>
           <note from="Developer" annotates="general" priority="2">%</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 1961059402 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 40 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 40 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 1323362785 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 41 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 41 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 685666168 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 42 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 42 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 47969551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 43 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 43 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 216878574 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 44 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 44 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 3874149253 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 45 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 45 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 3236452636 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 46 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 46 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 2598756019 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 47 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 47 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 2767665042 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 48 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 48 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276133518 - Control 2129968425 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Field 49 field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UTT IBPO9 Buffer List - Control Field 49 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 276133518 - Control 1901367353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Field 5 field.</source>
@@ -1578,6 +1743,16 @@
           <note from="Developer" annotates="general" priority="2">DEU=Einkaufszahlen Export</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report UTT O9 Project Jobs - Control PurchaseExport - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 4143221238 - Control 783370822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export posted purchase invoice lines for the selected posting date range.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT O9 Project Jobs - Control PurchaseInvoice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4143221238 - Control 783370822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Order Invoice Data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT O9 Project Jobs - Control PurchaseInvoice - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 4143221238 - Control 1922064685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Quality Association</source>
           <note from="Developer" annotates="general" priority="2">DEU= Quality Association</note>
@@ -1767,6 +1942,11 @@
           <source>UTT O9 Purchase Export_SP</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">XmlPort UTT O9 Purchase Export_SP - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 726723867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>O9 Purchase Order Invoice Data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort UTT O9 Purchase Invoice - Property Caption</note>
         </trans-unit>
         <trans-unit id="XmlPort 3428038917 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>UTT O9 STO</source>

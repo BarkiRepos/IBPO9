@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="632" viewBox="0 0 1100 632" role="img" aria-labelledby="title desc">
+<title id="title">Download selected exports</title><desc id="desc">Example: Purchase Order Invoice Data for September 2026.. Illustration only | Filename date is the run date | Equal invoice dates expand by three years each way</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#167d8d"/></marker></defs>
+<rect width="1100" height="632" rx="18" fill="#f2f6fb"/>
+<text x="40" y="49" font-family="Segoe UI,Arial,sans-serif" font-size="29" font-weight="700" fill="#132b46">Download selected exports</text>
+<text x="40" y="80" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#465b73">Example: Purchase Order Invoice Data for September 2026.</text>
+<rect x="40" y="105" width="1020" height="82" rx="12" fill="white" stroke="#c9d7e6"/>
+<circle cx="76" cy="145" r="20" fill="#167d8d"/>
+<text x="76" y="151" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="white">1</text>
+<text x="116" y="132" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#132b46">Open UTT O9IBP Jobs</text>
+<text x="116" y="156" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#465b73">Confirm the intended Business Central company.</text>
+<text x="116" y="176" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#465b73">Select Purchase Order Invoice Data under Demand planning.</text>
+<path d="M76 188 V208" stroke="#167d8d" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="213" width="1020" height="82" rx="12" fill="white" stroke="#c9d7e6"/>
+<circle cx="76" cy="253" r="20" fill="#167d8d"/>
+<text x="76" y="259" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="white">2</text>
+<text x="116" y="240" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#132b46">Set the reporting period</text>
+<text x="116" y="264" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#465b73">StartDate: 1 September 2026 | EndDate: 30 September 2026</text>
+<text x="116" y="284" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#465b73">Distinct dates give a fixed invoice posting-date range.</text>
+<path d="M76 296 V316" stroke="#167d8d" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="321" width="1020" height="82" rx="12" fill="white" stroke="#c9d7e6"/>
+<circle cx="76" cy="361" r="20" fill="#167d8d"/>
+<text x="76" y="367" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="white">3</text>
+<text x="116" y="348" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#132b46">Run and save the ZIP</text>
+<text x="116" y="372" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#465b73">Confirm the request page and save the O9Data archive.</text>
+<text x="116" y="392" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#465b73">The archive contains one file for each selected export.</text>
+<path d="M76 404 V424" stroke="#167d8d" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="429" width="1020" height="82" rx="12" fill="white" stroke="#c9d7e6"/>
+<circle cx="76" cy="469" r="20" fill="#167d8d"/>
+<text x="76" y="475" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="white">4</text>
+<text x="116" y="456" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#132b46">Extract and inspect</text>
+<text x="116" y="480" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#465b73">Example: IVMK_PurchaseOrderInvoice_20261012.csv</text>
+<text x="116" y="500" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#465b73">Import as UTF-8 text with | delimiter; check the 49 invoice columns.</text>
+<text x="40" y="602" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#465b73">Illustration only | Filename date is the run date | Equal invoice dates expand by three years each way</text>
+</svg>

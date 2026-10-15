@@ -64,3 +64,13 @@ The header and both data sections use these 23 positions, mirrored into the corr
 ## Review checklist for changes
 
 Check header and both row sections together when adding or reordering a column. Confirm matching buffer positions, open versus received quantities, receipt date filters, company-specific locations, currency fallback, and output formatting. Compare with `UTTO9POKPI.XmlPort.al` when useful, but verify its behavior independently before copying logic.
+
+## Purchase invoice template export
+
+`UTTPO_InvoiceSPCude.XmlPort.al` defines XMLport 67033, `UTT O9 Purchase Invoice`, and exports the 49-column purchase order invoice template. See [mapping notes](PURCHASE_INVOICE_MAPPING.md) for all source fields, joins, calculations, and limitations. The mapped Excel workbook in the project root contains the same mapping.
+
+It is available through O9 Project Jobs, snapshot configuration, and job queue parameter `PO_INVOICE`. Equal reference dates expand to three years before and after that date, matching `PurchaseExport_SP`. Invoice lines are filtered by posting date; the PO KPI location filters do not apply.
+
+Material Type and Material Category follow the material dimension textile/BOM and translation logic. Plant and Plant Name both use DE = IVMK or MX = IVMP. Cost Account uses General Ledger Setup Global Dimension 1 Code (Kostenstelle); Profit Center uses Global Dimension 2 Code (Kostentraeger). Their values come from Dimension Set Entry using the posted invoice line Dimension Set ID, with names from Dimension Value. No Cost Accounting Setup or dimension-name lookup is used.
+
+The buffer stores all 49 columns with the existing 100-character field limit; the buffer list displays fields 1-49. Eight template fields remain unmapped and blank, as listed in the mapping notes.
